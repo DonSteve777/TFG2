@@ -41,13 +41,9 @@ int main(int argc, char* argv[] )
 
 
 	try{
-		csvFile.open("tiempos.csv", std::ofstream::trunc);	//If the file is opened for output operations and it already existed, its previous content is deleted and replaced by the new one.
-		for(int i = 0; i < OBSERVATIONS-1; i++ )
-			csvFile << "N,seconds,";
-if (argc > 1 && std::string(argv[1]) == "-t")
-				csvFile << "N,seconds,tipo\n";
-		else
-			csvFile << "N,seconds\n";	
+		csvFile.open("tiempos.csv", std::ofstream::app);	//If the file is opened for output operations and it already existed, its previous content is deleted and replaced by the new one.
+		// for(int i = 0; i < OBSERVATIONS-1; i++ )
+		// 	csvFile << "N,seconds,";
 	// 1. generar caso de tamanio n, y escribirlo en casos.txt
 	}
 	catch(std::ofstream::failure e){
