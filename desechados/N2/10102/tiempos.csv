@@ -1,0 +1,68 @@
+~
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ g++ -o chrono.exe chrono.cpp
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+2
+N = 2 | seconds = 0.014310800
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N
+100
+N = 100 | seconds = 0.091960500
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N
+1000
+N = 1000 | seconds = 0.068670000
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+100
+N = 100 | seconds = 0.116087300
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+1000
+N = 1000 | seconds = 0.082373300
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+100
+N = 100 | seconds = 0.170333500
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+100
+N = 100 | seconds = 0.182765300
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+100
+N = 100 | seconds = 0.152140700
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+100
+N = 100 | seconds = 0.176807700
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+1000
+N = 1000 | seconds = 0.082594900
+--------------------------------------------
+--------------------------------------------
+godenvyus@LG-barvaro:/mnt/c/Users/alvar/xXx/ML/repoTFG/buenos/N^2/10102$ ./chrono.exe
+introduce N 
+1000
+N = 1000 | seconds = 0.052228400
+--------------------------------------------
+--------------------------------------------
