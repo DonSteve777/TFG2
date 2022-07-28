@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
     // generating data of current case
     int k = 1 + rand() % currentN;
     for (int h = 0; h < REPETITIONS; h++)
-        casosFile << currentN << k << "\n" ;
+        casosFile << currentN << " " <<  k << "\n" ;
     casosFile.close();
     pid_t pid = fork();
     if (pid == -1)
@@ -68,8 +68,6 @@ int main(int argc, char *argv[])
         }
     }
 
-    if (argc > 1 && std::string(argv[1]) == "-t")
-        csvFile << "," << N2;
     csvFile.close();
     return 0;
 }

@@ -1,5 +1,7 @@
 #include<iostream>
 #include<cmath>
+#include <fstream>
+
 
 using namespace std;
 
@@ -8,6 +10,10 @@ double log10(double n){
 }
 
 int main(){
+    std::ifstream in("casos.txt");
+    std::ofstream out("output.txt");
+ 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
+ 	auto coutbuf = std::cout.rdbuf(out.rdbuf());
 
     long long n,k;
     double ax;
@@ -23,6 +29,9 @@ int main(){
 
         cout<<dig<<endl;
     }
-
+    
+    std::cin.rdbuf(cinbuf);
+    std::cout.rdbuf(coutbuf); 
+    
     return 0;
 }
